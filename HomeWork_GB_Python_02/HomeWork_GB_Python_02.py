@@ -88,3 +88,32 @@
 #   Banknote1Counter = int(salary / 1)
 #   salary -= 1 * Banknote1Counter
 #   print(f"Потребуется {Banknote1Counter} - 1 банкнот")
+
+#==============================================================
+
+#4) Вводим с клавиатуры многозначное число
+#Необходимо узнать и сказать последовательность цифр этого числа при просмотре слева направо упорядочена по возрастанию или нет.
+#Например 1579 - да ( 1 меньше 5, 5 меньше 7, а 7 меньше 9), 1427 - нет
+
+#def DigitOfNumber(number):
+#    i = 0
+#    while number > 9:
+#        number/=10
+#        i+=1
+#    return i
+
+
+#print("Введите многозначное число:")
+#value = int(input())
+#result = True
+#counter = 10 ** DigitOfNumber(value)
+
+#while value > 9:
+#    if value / counter <= (value % counter)/(counter/10):
+#        result = True
+#        value%=counter
+#        counter/=10
+#    else:
+#        result = False
+#        break
+#print(result)
